@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+.contener{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color: grey;
+    justify-content: center;
+    
+}
+
+nav {
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+}
+
+nav .brend{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+nav .brend .ke1{
+    font-family: "Bookman Old style", serif;
+    color: white;
+    font-size: 18px;
+}
+nav .brend .ke2{
+    font-family: "Bookman Old style", serif;
+    font-size: 18px;
+    color: tomato;
+}
+
+nav .menu{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+nav .menu li{
+    list-style-type: none;
+}
+nav .menu li a{
+    text-decoration: none;
+   color: white;
+}
+
+nav .menu .bot{
+    display: none;
+    list-style-type: none;
+}
+nav .menu .servis{
+    list-style-type: none;
+    display: none;
+}
+
+nav ul li:hover .bot{
+    display: block;
+    position: absolute;
+    padding: 10px;
+    background-color: tomato;
+    margin-top: 30px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+nav ul li:hover .servis{
+    color: white;
+    display: block;
+    position: absolute;
+    padding: 10px;
+    background-color: tomato;
+    margin-top: 30px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+
+nav .menu .bot li a{
+    color: white;
+    font-family: "Bookman Old style", serif;
+}
+
+nav .menu .servis li a{
+    color: white;
+    font-family: "Bookman Old style", serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.baca{
+    background-color: grey;
+    height: 788px;
+}
+
+.baca strong{
+    color: rgb(233, 71, 17);
+    font-weight: 600;
+}
+.baca .dlu {
+    font-size: 25px;
+    font-weight: 800;
+    color: whitesmoke;
+    
+    font-family: "Bookman Old style", serif;
+}
+.baca .bac{
+    border-radius: 19px;
+    background-color: black;
+}
+
+
+.baca .apasc{
+    color: whitesmoke;
+}
+.baca .apabot{
+    color: whitesmoke;
+}
+
+.termux{
+    padding: 13px;
+  background-color: black;
+  border-radius: 8px;
+}
+.ter .termux{
+
+    color: whitesmoke;
+}
+
+.cara{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.cara h3{
+    color: whitesmoke;
+    font-family: "Bookman Old style", serif;
+}
+.cara h4{
+    padding: 5px;
+    color: whitesmoke;
+    font-family: "Bookman Old style", serif;
+}
+.cara .gakklik{
+    color: rgb(233, 71, 17);
+}
+
+.copy p{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+
+
+
